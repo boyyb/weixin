@@ -1,0 +1,76 @@
+[ 2016-07-06T10:41:09+08:00 ] 103.7.30.70 /weixin/index.php?signature=62027b8b35b91a08c98f8fc5bf8aebd07431e3f1&timestamp=1467772869&nonce=1487460148&openid=oaQhfwJYJDSP5aijdSYQYKRnRXEE
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014528s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+
+[ 2016-07-06T10:41:13+08:00 ] 101.226.89.120 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+
+[ 2016-07-06T10:41:17+08:00 ] 101.226.33.221 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+
+[ 2016-07-06T10:41:41+08:00 ] 180.153.163.190 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+
+[ 2016-07-06T10:52:31+08:00 ] 123.151.64.202 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003763s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+
+[ 2016-07-06T10:52:43+08:00 ] 101.226.33.228 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004507s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+

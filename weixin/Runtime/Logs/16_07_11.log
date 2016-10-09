@@ -1,0 +1,6 @@
+[ 2016-07-11T15:09:44+08:00 ] 103.7.30.70 /weixin/index.php?signature=e9e40393e36481c85346e62a6885aef1b4b66b4d&timestamp=1468220982&nonce=1118581139&openid=oaQhfwJYJDSP5aijdSYQYKRnRXEE
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021816s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+

@@ -1,0 +1,12 @@
+[ 2016-06-27T07:37:43+08:00 ] 103.7.30.70 /weixin/index.php?signature=6022860b66722f551f50db35b78538bb0f91746d&timestamp=1466984263&nonce=1525256969&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=aac28c0c2cd01f388227d8beb97f7bd28bd8c971
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003797s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+
+[ 2016-06-27T12:32:58+08:00 ] 103.7.30.70 /weixin/index.php?signature=e17e33ead7188ba87e2cf917fba9a148965cc263&timestamp=1467001977&nonce=1831051042&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=366fb0a33bbef074b6ebd800389c5dab35e88a6c
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+

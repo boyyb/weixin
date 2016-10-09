@@ -1,0 +1,46 @@
+[ 2016-08-16T15:06:03+08:00 ] 103.7.30.70 /weixin/index.php?signature=f899673838eaa51ff9c35fba5ff485f55181daa4&timestamp=1471331162&nonce=770275342&openid=o52f5wWcG2iL5Qyvj53Pk5HhNpuw&encrypt_type=aes&msg_signature=59eff8caf2d3b86a26ed02ad0eb1ee1535b1e471
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017331s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+
+[ 2016-08-16T15:06:19+08:00 ] 103.7.30.70 /weixin/index.php?signature=f78236c8a9dca0761cdd1dda6166c6742c0b9b6b&timestamp=1471331179&nonce=641114820&openid=o52f5wWcG2iL5Qyvj53Pk5HhNpuw&encrypt_type=aes&msg_signature=86469952a23cc0188948202a58e6c596f97e41f7
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+
+[ 2016-08-16T15:06:28+08:00 ] 103.7.30.70 /weixin/index.php?signature=195916c5eddb3382b8f8540f8d2102a28fe8653f&timestamp=1471331188&nonce=575970515&openid=o52f5wWcG2iL5Qyvj53Pk5HhNpuw&encrypt_type=aes&msg_signature=3830dceb8159baba33b1a9b3fdc610deb460d403
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+
+[ 2016-08-16T15:09:11+08:00 ] 180.163.2.116 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+
+[ 2016-08-16T15:09:13+08:00 ] 101.226.61.207 /weixin/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+NOTIC: [8] Undefined index:  timestamp D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index:  nonce D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index:  signature D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  echostr D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  HTTP_RAW_POST_DATA D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\yb1987\wwwroot\weixin\weixin\Lib\Action\IndexAction.class.php 第 84 行.
+
