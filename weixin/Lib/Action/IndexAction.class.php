@@ -28,8 +28,11 @@ class IndexAction extends Action {
             echo $echostr;
             exit;
         }else{
-            $this->responseMsg();
+            $this -> menu(); //初始化底部菜单
+            $this -> responseMsg(); //响应消息
         }
+
+
     }
 
     public function responseMsg(){
@@ -37,7 +40,7 @@ class IndexAction extends Action {
         $postArr = $GLOBALS["HTTP_RAW_POST_DATA"];
         //处理消息类型，设置回复类型和内容
         $this -> postObj = simplexml_load_string($postArr, 'SimpleXMLElement', LIBXML_NOCDATA);
-        if(strtolower($this->postObj->MsgType) == 'event' && strtolower($this->postObj->Event) == 'subscribe' ){ //订阅事件      
+        if(strtolower($this->postObj->MsgType) == 'event' && strtolower($this->postObj->Event) == 'subscribe' ){ //订阅事件
             $content = "欢迎订阅boyyb的微信公众号！我将为你提供优质的服务。";
             $this->sendText($content);
         }elseif(strtolower($this->postObj->MsgType == 'text')){
@@ -73,7 +76,8 @@ class IndexAction extends Action {
                 case "你好":$content = "你好，有什么可以为你服务的吗？";break;
                 case "bingo":$content = "that's so cool！";break;
                 case "看片":$content = "<a href='http://www.youku.com'>点我就可以看</a>";break;
-                default:$content = "不知道你在说什么鬼？";
+                case "傻逼":$content = "你tm才是傻逼呢，怎么骂人呢！操";break;
+                default:$content = "不知道你在说什么？我还在努力学习人类语言呢！";
             }
 
             $this->sendText($content);
@@ -86,8 +90,7 @@ class IndexAction extends Action {
             $key = $this->postObj->EventKey;
             switch($key){
                 case 'item1':$content = "你点击了菜单一";break;
-                case 'item21':$content = "你点击了二级菜单一";break;
-                case 'item22':$content = "你点击了二级菜单二";break;
+                case 'V1001_GOOD':$content = "谢谢你的赞！";break;
             }
             $this -> sendText($content);
         }
@@ -229,44 +232,43 @@ class IndexAction extends Action {
         //微信接口调用都是通过curl方式 post/get
         $accessToken = $this -> getAccessToken();
         $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=$accessToken";
-        //菜单数组
-        $postArr = array(
-            'button'=>array(
-                array(
-                    'name'=>urlencode('菜单一'),
-                    'type'=>'click',
-                    'key'=>'item1'
-                ),
-                array(
-                    'name'=>urlencode('菜单二'),
-                    'sub_button'=>array(
-                        array(
-                            'name'=>urlencode('二级菜单一'),
-                            'type'=>'click',
-                            'key'=>'item21'
-                        ),
-                        array(
-                            'name'=>urlencode('二级菜单二'),
-                            'type'=>'click',
-                            'key'=>'item22'
-                        ),
-                        array(
-                            'name'=>urlencode('跳转测试'),
-                            'type'=>'view',
-                            'url'=>'http://www.boyyb.top/weixin/index.php/Index/getBaseInfo'
-                        )
-                    )
-                ),
-                array(
-                    'name'=>urlencode('腾讯主页'),
-                    'type'=>'view',
-                    'url'=>'http://www.qq.com'
-                )
-            )
-        );
-        //汉字转json时会被转码，所以事先对汉字转码，转json时不会被转码，最后再解码恢复汉字
-        $postJson = urldecode(json_encode($postArr));
-        $res = $this -> http_curl($url,'post','json',$postJson);
+        //创建菜单 json格式
+        $menuData = '{
+            "button":[
+                    {
+                        "type":"click",
+                        "name":"菜单1",
+                        "key":"item1"
+                    },
+                    {
+                        "name":"菜单2",
+                         "sub_button":[
+                            {
+                                "type":"view",
+                                "name":"搜索",
+                                "url":"http://www.soso.com/"
+                            },
+                            {
+                                 "type":"view",
+                                 "name":"视频",
+                                 "url":"http://v.qq.com/"
+                            },
+                            {
+                                "type":"click",
+                                "name":"赞一下我们",
+                                "key":"V1001_GOOD"
+                            }
+                         ]
+                    },
+                    {
+                        "type":"view",
+                        "name":"百度一下",
+                        "url":"http://www.baidu.com/"
+                    },
+            ]
+        }';
+
+        $res = $this -> http_curl($url,'post','json',$menuData);
         var_dump($res);
 
     }
